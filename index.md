@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Ashley Qualkenbush</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        
+        
+        <div class="title">
+            <img class="profile" src="icons/profile.png" height="120" width="120">
+            
+            <h1>
+            Ashley<br />
+            Qualkenbush
+            </h1>
+        </div>
+        
+
+        <div class="nav">
+          <div class="button">Home</div>
+          <div class="button">Blog</div>
+          <div class="button">Contact</div>
+          <div class="button">Projects</div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="sidebar">
+          <h2>Skilled In:</h2>
+          <h4>Various Linux Distros:</h4>
+          <ul>
+            <li>
+              <img class="icon" src="icons/redhat.png" height="20" /> Redhat
+            </li>
+            <li>
+              <img class="icon" src="icons/fedora.png" height="20" /> Fedora
+            </li>
+            <li>
+              <img class="icon" src="icons/ubuntu.png" height="20" /> Ubuntu
+            </li>
+            <li>
+              <img class="icon" src="icons/debian.png" height="20" /> Debian
+            </li>
+            <li><img class="icon" src="icons/arch.png" height="20" /> Arch</li>
+            <li><img class="icon" src="icons/mint.png" height="20" /> Mint</li>
+            <li>...And related spin-offs</li>
+          </ul>
+          
+          <h4>Linux Desktop Environments Like:</h4>
+          <ul>
+            <li>Gnome Shell</li>
+            <li>Budgie Desktop</li>
+            <li>KDE</li>
+            <li>XFCE</li>
+            <li>LXDE</li>
+          </ul>
+
+          <h4>Web Design Standards:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>About Me</h2>
+          <p>
+            I am currently seeking an entry level position in DevOps or
+            Redhat system administration. currently I work as a supervisor in a
+            popular local cafe, but I have been working hard to further my
+            education and break into the tech world. My end goal is to have the
+            skillset of a full-stack developer<br />
+          </p>
+            <h2>My Tech Background</h2>
+            <p>I have held an interest in tech for as long as my early teen years. 
+                I attended vocational high school in the programming and web design concentration 
+                from age fourteen to seventeen. During this time I competed in the Skills USA district
+                level competition, advancing to state twice. I would also pursue an independant interest
+                in Linux and FOSS, experiemnting with various distros, on various machines.
+                Eventually I came to prefer a Linux based OS for daily use, and installed
+                Arch Linux on my student laptop. These days my systems run Fedora Budgie Spin.<br />
+                
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8ceaa92c-8180-4008-bab5-3ce1666e98f9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+            </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="box">
+          <p>heyyyyyy</p>
+        </div>
+        <div class="sidebar">
+          
+            <h4>Comfortable with Linux terminal basics, and utilities such as:</h4>
+          <ul>
+            <li>File Management</li>
+            <li>User Management</li>
+            <li>Permissions Management</li>
+            <li>SSH use and configuration</li>
+            <li>Editing files in vim and nano</li>
+            <li>Managing networks with nmcli</li>
+            <li>Transferring files with scp</li>
+            <li>
+              installing and updating software with dnf/yum, rpm, apt package
+              manager, and pacman
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

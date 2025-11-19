@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+p {
+  font-family: "Comfortaa", sans-serif;
+}
+
+h1 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bolder;
+  font-size: 250%;
+  padding-left: 20;
+}
+
+h3 {
+  color:;
+}
+
+body {
+  background-image: url("wall.jpg");
+  background-size: cover;
+  font-family: "Comfortaa", sans-serif;
+}
+
+li {
+  padding-bottom: 5px;
+  font-family: "Comfortaa", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #1e1b35;
+}
+
+.profile {
+  border-radius: 50%;
+  border-style: solid;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container {
+  filter: drop-shadow(20px 8px 20px);
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  margin-left: 25px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 3;
+  border-color: #1e1b35;
+  color: rgb(215, 215, 250);
+  justify-content: space-between;
+  background-color: #332d58;
+  height: 250;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.content {
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-top: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  display: flex;
+  background-color: #332d58;
+  flex-grow: 1;
+  max-height: 65;
+  overflow: hidden;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-grow: 1;
+  width: 20%;
+  color: rgb(215, 215, 250);
+  font-size: 25px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 2;
+  border-color: #1b1b4bc7;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-grow: 1;
+  width: 20%;
+  color: rgb(215, 215, 250);
+  font-size: 25px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 2;
+  border-color: #1b1b4bc7;
+  background-color: #1b1b4bc7;
+}
+
+.box {
+  border-style: solid;
+  border-width: 3;
+  border-color: #1b1b4bc7;
+  padding-left: 15;
+  padding-right: 15;
+  flex-grow: 1;
+  flex-shrink: 2;
+  background-color: #c5e0dc;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 5;
+  margin-right: 5;
+  min-width: 100;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.sidebar {
+  border-style: solid;
+  border-width: 3;
+  border-color: #1b1b4bc7;
+  width: 230;
+  max-width: 600;
+  min-width: 300;
+  background-color: #332d58;
+  height: 100%;
+  flex-shrink: 2;
+  color: #c5e0dc;
+  text-align: left;
+  padding-left: 15;
+  padding-right: 15;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 5;
+  margin-right: 5;
+  font-family: "Comfortaa", sans-serif;
+}
